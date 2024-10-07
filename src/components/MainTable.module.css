@@ -1,0 +1,19 @@
+.models{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.models button{
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+.models button span{
+    color: black;
+}
+
+.pagination{
+    margin-left: auto;
+    margin-top: 20px;
+    width: fit-content;
+}
