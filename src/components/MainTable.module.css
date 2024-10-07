@@ -1,19 +1,31 @@
 .models{
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;  
+    margin-bottom: 20px;  
+    gap: 10px;
 }
 .models button{
-    margin-right: 10px;
     border: none;
     background-color: transparent;
     color: blue;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
 }
 .models button span{
     color: black;
+    font-size: 12px;
 }
 
 .pagination{
     margin-left: auto;
     margin-top: 20px;
+    width: fit-content;
+}
+.select {
+    margin-bottom: 20px;
     width: fit-content;
 }

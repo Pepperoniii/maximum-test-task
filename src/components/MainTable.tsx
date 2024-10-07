@@ -3,6 +3,7 @@ import { TModel } from "@/types/types";
 import { Pagination, Select, Table } from "antd";
 import { useEffect, useState } from "react";
 
+import Title from "antd/es/typography/Title";
 import styles from "./MainTable.module.css";
 
 const columns = [
@@ -98,6 +99,7 @@ const MainTable = () => {
         })}
       </div>
 
+      <Title level={5}>Модели</Title>
       <Select
         mode="tags"
         style={{ width: "100%" }}
@@ -105,6 +107,7 @@ const MainTable = () => {
         onChange={onChangeSelect}
         value={currentModels}
         open={false}
+        className={styles.select}
       />
 
       <Table
